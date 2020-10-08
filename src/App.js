@@ -1,14 +1,29 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      
+class App extends Component {
+  render() {
+    return (
+      <div className="App">
+        <header className="header">
+        The Junior Forúm
+         
+          
+
+          <div class="dropdown floatRight" >
+            <button class="dropbtn">Menu</button>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </div>
+          </header>
+
         
-    </div>
-  );
+      </div>
+    );
+  }
 }
 
 export default App;
